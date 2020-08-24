@@ -1,0 +1,464 @@
+<!doctype html>
+<html class="no-js" lang="en-US">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compitable" content="ie=edge, chrome 1"> <!-- Display webpage in edge mode/IE in highest supported document mode -->
+  <title>Natours | Advanced CSS</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Optimizations for mobile devices -->
+  <link rel="apple-touch-icon" href="icon.png">
+  <!-- Place favicon.ico in the root directory -->
+  <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+  <!-- GOOGLE FONTS -->
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap" rel="stylesheet">
+  <!-- CSS FILES -->
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/fontawesome/css/all.min.css">
+  <link rel="stylesheet" href="assets/css/icon-font.css">
+  <link rel="stylesheet" href="assets/css/normalize.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="assets/css/responsive.css">
+
+  <meta name="theme-color" content="#fafafa">
+        <!-- HTML5 shiv and Respond.js IE8 support of HTML5 elements and media queries -->
+            <!--[if lt IE 9]>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js"</script>
+            <![endif]-->
+</head>
+
+<body>
+<!--===========================
+    NAVIGATION
+============================-->
+  <div class="navigation">
+    <input type="checkbox" class="navigation__checkbox" id="navi-toggle">
+    <label for="navi-toggle" class="navigation__button">
+      <span class="navigation__icon"></span>
+    </label>
+    <div class="navigation__background"></div>
+    <nav class="navigation__nav">
+      <ul class="navigation__list">
+        <li class="navigation__item">
+          <a href="#" class="navigation__link">About Natous</a>
+        </li>
+        <li class="navigation__item">
+          <a href="#" class="navigation__link">Your Benefits</a>
+        </li>
+        <li class="navigation__item">
+          <a href="#" class="navigation__link">Popular Items</a>
+        </li>
+        <li class="navigation__item">
+          <a href="#" class="navigation__link">Our Stories</a>
+        </li>
+        <li class="navigation__item">
+          <a href="#" class="navigation__link">Book Now</a>
+        </li>
+      </ul>
+    </nav> <!-- navigation__nav -->
+  </div> <!-- navigation -->
+
+<!--===========================
+    HEADER
+============================-->
+<header class="header">
+  <div class="header__logo-box">
+    <img class="logo" src="assets/img/logo-white.png" alt="Logo White">
+  </div> <!-- logo-box -->
+  <div class="header__text-box">
+
+    <div class="heading-primary">
+      <span class="heading-primary-main animate__animated animate__zoomIn animate__slower">Outdoors</span>
+      <span class="heading-primary-sub animate__animated animate__fadeInUp animate__delay-2s">is where life happens</span>
+    </div> <!-- heading-primary -->
+
+    <a href="#" class="button button-white">Discover our tours</a>
+
+  </div> <!-- text-box -->
+</header> <!-- header -->
+
+<main>
+<!--===========================
+    ABOUT
+============================-->
+<section class="section-about">
+  <div class="wrapper">
+    <div class="center-text margin-bottom-big">
+      <h2 class="heading-secondary animate__animated animate__backInUp animate__delay-.2s">
+        Exciting Tours For Adventurous People
+      </h2> <!-- heading-secondary -->
+    </div> <!-- center-text -->
+
+    <div class="row">
+
+      <div class="text-column col-lg-6 col-md-6 col-sm-12 col-12">
+        <h3 class="heading-tertiary margin-bottom-small">
+          You are going to fall in love with nature
+        </h3> <!-- heading-tertiary -->
+        <p class="paragraph">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente sed deleniti consectetur ea ab. Eaque quae adipisci, magnam incidunt, sint eligendi aperiam nulla sit
+        </p> <!-- paragraph -->
+
+        <h3 class="heading-tertiary margin-bottom-small">
+          Live adventures like you have never before
+        </h3> <!-- heading-tertiary -->
+        <p class="paragraph">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente sed deleniti consectetur ea ab.
+        </p> <!-- paragraph -->
+
+        <a href="#" class="button-text">Learn More &rarr;</a>
+      </div> <!-- text-column -->
+
+      <div class="image-column col-lg-6 col-md-6 col-sm-12 col-12">
+        <div class="composition">
+          
+          <img src="assets/img/nat-1-large.jpg" alt="photo 1" class="composition__photo composition__photo--p1">
+          <img src="assets/img/nat-2-large.jpg" alt="photo 2" class="composition__photo composition__photo--p2">
+          <img src="assets/img/nat-3-large.jpg" alt="photo 3" class="composition__photo composition__photo--p3">
+        </div> <!-- composition -->
+      </div> <!-- image-column -->
+
+    </div> <!-- row -->
+  </div> <!-- wrapper -->
+</section> <!-- section-about -->
+
+<!--===========================
+    FEATURES
+============================-->
+<section class="section-features">
+  <div class="wrapper">
+    <div class="grid">
+      <!-- <div class="col-lg-3 col-md-3 col-sm-6 col-12"> -->
+        <div class="grid__feature-boxes">
+          <i class="grid__feature-boxes__icon icon-basic-world"></i>
+          <h3 class="heading-tertiary margin-bottom-small">Explore The World</h3>
+          <p class="grid__feature-boxes__text">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit error reiciendis,Eaque quae adipisci
+          </p>
+        </div> <!-- feature-box -->
+        <div class="grid__feature-boxes">
+          <i class="grid__feature-boxes__icon icon-basic-compass"></i>
+          <h3 class="heading-tertiary margin-bottom-small">Meet Nature</h3>
+          <p class="grid__feature-boxes__text">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit error reiciendis,Eaque quae adipisci
+          </p>
+        </div> <!-- feature-box -->
+        <div class="grid__feature-boxes">
+          <i class="grid__feature-boxes__icon icon-basic-map"></i>
+          <h3 class="heading-tertiary margin-bottom-small">Find Your Way</h3>
+          <p class="grid__feature-boxes__text">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit error reiciendis,Eaque quae adipisci
+          </p>
+        </div> <!-- feature-box -->
+        <div class="grid__feature-boxes">
+          <i class="grid__feature-boxes__icon icon-basic-heart"></i>
+          <h3 class="heading-tertiary margin-bottom-small">Live A Healthier Life</h3>
+          <p class="grid__feature-boxes__text">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit error reiciendis,Eaque quae adipisci
+          </p>
+        </div> <!-- feature-box -->
+      </div> <!-- grid -->
+    </div> <!-- wrapper -->
+</section> <!-- section-features -->
+
+<!--===========================
+    TOURS
+============================-->
+<section class="section-tours" id="section-tours">
+  <div class="wrapper">
+    <div class="center-text margin-bottom-big">
+      <h2 class="heading-secondary animate__animated animate__backInUp animate__delay-.2s">
+        Most Popular Tours
+      </h2> <!-- heading-secondary -->
+    </div> <!-- center-text -->
+
+    <div class="cards-grid" id="cards-grid">
+
+      <div class="cards">
+          <div class="cards__side cards__side--front">
+            <div class="cards__picture cards__picture--1">
+              &nbsp;
+            </div> <!-- card__picture -->
+            <h4 class="cards__heading">
+              <div class="cards__heading-span cards__heading-span--1">
+                The Sea Explorer
+              </div> <!-- card__heading-span -->
+            </h4> <!-- card__heading -->
+            <div class="cards__details">
+              <ul>
+                <li>3 Days Tour</li>
+                <li>Up To 30 People</li>
+                <li>2 Tour Guides</li>
+                <li>Sleep in Cozzy Hotel</li>
+                <li>Difficulty: Easy</li>
+              </ul>
+            </div> <!-- card__details -->
+          </div> <!-- card__side--front -->
+          <div class="cards__side cards__side--back cards__side--back-1">
+            <div class="cards__cta">
+              <div class="cards__price-box">
+                <p class="cards__price-only">Only</p>
+                <p class="cards__price-value">$297</p>
+              </div> <!-- cards__price-box -->
+              <a href="#popup" class="button button-white">Book Now</a>
+            </div> <!-- cards__cta -->
+          </div> <!-- card__side card__side--back -->
+      </div> <!-- card -->
+
+      <div class="cards">
+          <div class="cards__side cards__side--front">
+            <div class="cards__picture cards__picture--2">
+              &nbsp;
+            </div> <!-- card__picture -->
+            <h4 class="cards__heading">
+              <div class="cards__heading-span cards__heading-span--2">
+                The Forest Hicker
+              </div> <!-- card__heading-span -->
+            </h4> <!-- card__heading -->
+            <div class="cards__details">
+              <ul>
+                <li>7 Days Tour</li>
+                <li>Up To 40 People</li>
+                <li>6 Tour Guides</li>
+                <li>Sleep in Privided Tents</li>
+                <li>Difficulty: Medium</li>
+              </ul>
+            </div> <!-- card__details -->
+          </div> <!-- card__side--front -->
+          <div class="cards__side cards__side--back cards__side--back-2">
+            <div class="cards__cta">
+              <div class="cards__price-box">
+                <p class="cards__price-only">Only</p>
+                <p class="cards__price-value">$497</p>
+              </div> <!-- cards__price-box -->
+              <a href="#popup" class="button button-white">Book Now</a>
+            </div> <!-- cards__cta -->
+          </div> <!-- card__side card__side--back -->
+      </div> <!-- card -->
+
+      <div class="cards">
+          <div class="cards__side cards__side--front">
+            <div class="cards__picture cards__picture--3">
+              &nbsp;
+            </div> <!-- card__picture -->
+            <h4 class="cards__heading">
+              <div class="cards__heading-span cards__heading-span--3">
+                The Snow Adventure
+              </div> <!-- card__heading-span -->
+            </h4> <!-- card__heading -->
+            <div class="cards__details">
+              <ul>
+                <li>5 Days Tour</li>
+                <li>Up To 15 People</li>
+                <li>3 Tour Guides</li>
+                <li>Sleep in Privided Tents</li>
+                <li>Difficulty: Hard</li>
+              </ul>
+            </div> <!-- card__details -->
+          </div> <!-- card__side--front -->
+          <div class="cards__side cards__side--back cards__side--back-3">
+            <div class="cards__cta">
+              <div class="cards__price-box">
+                <p class="cards__price-only">Only</p>
+                <p class="cards__price-value">$897</p>
+              </div> <!-- cards__price-box -->
+              <a href="#popup" class="button button-white">Book Now</a>
+            </div> <!-- cards__cta -->
+          </div> <!-- card__side card__side--back -->
+      </div> <!-- card -->
+
+    </div> <!-- cards-grid -->
+    <div class="center-text margin-top-big">
+      <a href="#" class="button button-green">Discover All Tours</a>
+    </div>
+
+  </div> <!-- wrapper -->
+</section> <!-- section-tours -->
+
+<!--===========================
+    STORIES
+============================-->
+<section class="section-stories">
+	<div class="bg-video">
+		<video class="bg-video__content" autoplay loop muted >
+			<source src="assets/img/video.mp4" type="video/mp4">
+			<source src="assets/img/video.webm" type="video/webm">
+				Your browser is not supported!
+		</video> <!-- bg-video__content -->
+	</div> <!-- bg-video -->
+	<div class="wrapper">
+		<div class="center-text margin-bottom-big">
+	      <h2 class="heading-secondary animate__animated animate__backInUp animate__delay-.2s">
+	        We make people genuinely happy
+	      </h2> <!-- heading-secondary -->
+    	</div> <!-- center-text -->
+
+	 <div class="row margin-bottom-large">
+    	<div class="story">
+    		<figure class="story__shape">
+    			<img src="assets/img/nat-8.jpg" alt="Story" class="story__img">
+    			<figcaption class="story__caption">Mary Smith</figcaption>
+    		</figure>
+    		<div class="story__text">
+    			<h3 class="heading-tertiary margin-bottom-small">
+    				I had the best week ever with my family
+    			</h3> <!-- heading-tertiary -->
+    			<p>Lorem ipsum adipisicing elit. Facere delectus, numquam animi quae unde est. delectus, dolor sit amet, consectetur adipisicing elit. Facere consectetur adipisicing elit. Facere delectus, numquam animi quae unde est. delectus, numquam animi quae unde est.Lorem ipsum adipisicing elit. Facere delectus, numquam animi quae unde est. delectus, dolor sit amet, consectetur adipisicing elit.</p>
+    		</div> <!-- story__text -->
+    	</div> <!-- story -->
+     </div> <!-- row -->
+
+	 <div class="row">
+    	<div class="story">
+    		<figure class="story__shape">
+    			<img src="assets/img/nat-9.jpg" alt="Story" class="story__img">
+    			<figcaption class="story__caption">Jack Wilson</figcaption>
+    		</figure>
+    		<div class="story__text">
+    			<h3 class="heading-tertiary margin-bottom-small">
+    				WOW! My life is completely different now
+    			</h3> <!-- heading-tertiary -->
+    			<p>Lorem ipsum adipisicing elit. Facere delectus, numquam animi quae unde est. delectus, dolor sit amet, consectetur adipisicing elit. Facere consectetur adipisicing elit. Facere delectus, numquam animi quae unde est. delectus, numquam animi quae unde est.Lorem ipsum adipisicing elit. Facere delectus, numquam animi quae unde est. delectus, dolor sit amet, consectetur adipisicing elit.</p>
+    		</div> <!-- story__text -->
+    	</div> <!-- story -->
+     </div> <!-- row -->
+     <div class="center-text margin-top-big">
+     	<a href="#" class="button-text">Read All Stories &rarr;</a>
+     </div> <!-- center-text -->
+	</div> <!-- wrapper -->
+</section> <!-- section-stories -->
+
+<!--===========================
+    CONTACT
+============================-->
+<section class="section-book">
+	<div class="wrapper">
+		<div class="book">
+			<div class="book__form">
+        <form action="#" class="form">
+          <div class="margin-bottom-medium">
+            <h2 class="heading-secondary animate__animated animate__backInUp animate__delay-.2s">
+              Start Booking Now
+            </h2> <!-- heading-secondary -->
+          </div> <!-- center-text -->
+          <div class="form__group">
+            <input type="text" class="form__input" id="name" placeholder="Full Name" required>
+            <label for="name" class="form__label">Full Name</label>
+          </div> <!-- form__group -->
+          <div class="form__group">
+            <input type="email" class="form__input" id="email" placeholder="Email Address" required>
+            <label for="email" class="form__label">Email Address</label>
+          </div> <!-- form__group -->
+
+          <div class="form__group">
+
+            <div class="form__radio-group margin-bottom-small">
+              <input type="radio" class="form__radio-input" id="small" name="size">
+              <label for="small" class="form__radio-label">
+                <span class="form__radio-button"></span>
+                Small Tour Group
+              </label> <!-- form__radio-label -->
+            </div> <!-- form__radio-group -->
+
+            <div class="form__radio-group">
+              <input type="radio" class="form__radio-input" id="large" name="size">
+              <label for="large" class="form__radio-label">
+                <span class="form__radio-button"></span>
+                Large Tour Group
+              </label> <!-- form__radio-label -->
+            </div> <!-- form__radio-group -->
+
+          </div> <!-- form__group -->
+          <div class="form__group">
+            <button class="button button-green">Next Step &rarr;</button>
+          </div>
+        </form> <!-- form -->
+      </div> <!-- book__form -->
+		</div> <!-- book -->
+	</div> <!-- row -->
+</section> <!-- section-book -->
+</main> 
+
+<!--===========================
+    FOOTER
+============================-->
+<footer class="footer">
+  <div class="wrapper">
+    <div class="footer__logo-box">
+      <!-- RESPONSIVE IMAGE -->
+      <picture class="footer__logo">
+        <source srcset="assets/img/logo-green-small-1x.png 1x, assets/img/logo-green-small-2x.png 2x" media="(max-width: 37.5em)">
+          <img srcset="assets/img/logo-green-1x.png 1x, assets/img/logo-green-2x.png 2x" alt="Footer Logo" >
+      </picture> <!-- footer__logo -->
+    
+  </div> <!-- footer__logo-box -->
+  <div class="row">
+
+    <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+      <div class="footer__navigation">
+        <ul class="footer__list">
+          <li class="footer__item">
+            <a href="#" class="footer__link">Company</a>
+          </li> <!-- footer__item -->
+          <li class="footer__item">
+            <a href="#" class="footer__link">Contact Us</a>
+          </li> <!-- footer__item -->
+          <li class="footer__item">
+            <a href="#" class="footer__link">Carrers</a>
+          </li> <!-- footer__item -->
+          <li class="footer__item">
+            <a href="#" class="footer__link">Privacy</a>
+          </li> <!-- footer__item -->
+          <li class="footer__item">
+            <a href="#" class="footer__link">Terms</a>
+          </li> <!-- footer__item -->
+        </ul> <!-- footer__list -->
+      </div> <!-- footer__navigation -->
+    </div> <!-- col-lg-6 -->
+
+    <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+      <p class="footer__copyright">
+        Built & Copyright &copy; By <a href="#" class="footer__link" target="_blank">MHB</a> with <strong>Advanced CSS & SASS</strong>. Credit to the course instructor <a href="#" target="_blank" class="footer__link">Jonas Schmedtmann</a>
+      </p> <!-- footer__copyright -->
+    </div> <!-- col-lg-6 -->
+
+  </div> <!-- row -->
+  </div> <!-- wrapper -->
+</footer> <!-- footer -->
+
+<!--===========================
+    POPUP
+============================-->
+<div class="popup" id="popup">
+  <div class="popup__content">
+    <div class="popup__left">
+      <img src="assets/img/nat-8.jpg" alt="Tour" class="popup__img">
+      <img src="assets/img/nat-9.jpg" alt="Tour" class="popup__img">
+    </div> <!-- popup__left -->
+    <div class="popup__right">
+      <a href="#cards-grid" class="popup__close">&times;</a>
+      <h2 class="heading-secondary margin-bottom-small">Start Booking Now</h2>
+      <h3 class="heading-tertiary margin-bottom-small">
+        Important &ndash; Please reas the terms before booking
+      </h3>
+      <p class="popup__text">
+        There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet.
+      </p>
+      <a href="#" class="button button-green">Book Now</a>
+    </div> <!-- popup__right -->
+  </div> <!-- popup__content -->
+</div> <!-- popup -->
+
+<!--===========================
+    jQuery & Javascript Files
+============================-->
+  <script src="assets/js/jquery-3.5.1.min.js"></script>
+  <script src="assets/js/popper.min.js"></script>  
+  <script src="assets/js/bootstrap.min.js"></script>
+  <script src="assets/js/main.js"></script>
+  <script src="assets/js/modernizr-3.8.0.min.js"></script>
+</body>
+</html>

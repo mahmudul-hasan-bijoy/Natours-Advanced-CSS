@@ -1,0 +1,24 @@
+/* SMALL/MOBILE SCREEN */
+@media screen and (max-width: 576px) {
+	
+}
+
+
+/* MEDIUM/TABLET SCREEN */
+@media screen and (max-width: 768px) {
+	
+}
+
+
+
+/* LARGE SCREEN */
+@media screen and (min-width: 769px) {
+
+
+}
+
+
+/* EXTRA LARGE SCREEN */
+@media screen and (min-width: 1171px) {
+
+}

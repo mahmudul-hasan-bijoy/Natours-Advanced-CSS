@@ -1,6 +1,6 @@
 <img src="assets/img/screenshot.png" title="Natours">
 
-# <a href="https://mahmudul-hasan-bijoy.github.io/training_studio/" target="_blank">Natours | Advanced CSS Tricks</a>
+# <a href="https://mahmudul-hasan-bijoy.github.io/Natours-Advanced-CSS/" target="_blank">Natours | Advanced CSS Tricks</a>
   - Onepage Website
   - Advanced CSS Tech includng Nice Animations.
   - HTML5
